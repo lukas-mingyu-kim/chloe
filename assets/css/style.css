@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   /*padding: 20px 10px;*/
-  height: 60px;
+  height: 80px;
   /*line-height: 60px;*/
   text-align: center;
   /*vertical-align: middle;*/
@@ -149,12 +149,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  #header {
+    height: 60px;
+  }
   #header #logo h1 {
     font-size: 26px;
   }
   #header #logo img {
     max-height: 40px;
   }
+
+
+
 }
 
 #header.header-transparent {
@@ -353,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #031c3b;
+  background-color: #ffffff;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -387,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li a:hover {
-  background: #031c3b;
+  background: #ffffff;
   color: #fff;
 }
 
